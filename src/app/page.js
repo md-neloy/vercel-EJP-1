@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+"use client";
 export default function Home() {
-  return <h2 className="text-red-600">Hello world</h2>;
+  return <h2 className="text-red-600 btn btn-primary">Hello world</h2>;
 }
